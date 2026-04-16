@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url('images/webpage.jpg') no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position:center ;
+  padding-bottom:50px ;
+}
+header{
+  background: #351a35;
+}
+nav{
+  height: 60px;
+  width: 100%;
+}
+.logo{
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  line-height: 60px;
+  color: white;
+  padding: 0 100px;
+  cursor: pointer;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 25px;
+  list-style: none;
+}
+nav ul li a{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 7px 13px;
+  text-decoration: none;
+}
+a.home,a:hover{
+  color: aqua;
+  transition: .5s;
+}
+.checkBtn{
+  font-size: 1.5rem;
+  color: white;
+  float: rigth;
+  line-height: 60px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:rgb(105, 4, 148);
+  height: calc(100vh-60px);
+  padding-left: 300px;
+  position: absolute;
+   
+  top: 20%;
+
+}
+.text h1{
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+  font-weight: 15px;
+  margin-top: 150px;
+}
+.text p{
+  font-size: 40px;
+  margin-left: 40px;
+  color: black;
+}
+.about{
+  margin-top: 610px;
+  padding-top: 150px;
+}
+.heading{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  background: #591f59;
+  margin: 10px 0;
+  height: 50px;
+}
+.image1{
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #591f59;;
+
+}
+button{
+  border: none;
+  margin-left: 20px;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: white;
+  background-color: purple;
+  margin-bottom: 30px;
+}
+.hairfall{
+  margin-left: 60px;
+}
+.cough{
+  margin-left: 160px;
+}
+.headache{
+  margin-left: 125px;
+}
+.irondeficiency{
+  margin-left: 110px;
+}
+.kidneystones{
+  margin-left: 85px;
+}
+.legspain{
+  margin-left: 120px;
+}
+.mouthulcer{
+  margin-left: 50px;
+}
+.stomachacha{
+  margin-left: 120px;
+}
+.sugarcontrol{
+  margin-left: 100px;
+}
+.swallowing{
+  margin-left: 110px;
+}
+.weightloss{
+  margin-left: 110px;
+}
+.gastric{
+  margin-left: 130px;
+}
+.fever{
+  margin-left: 65px;
+}
+.asthma{
+  margin-left: 160px;
+}
+.staranise{
+  margin-left:60px ;
+}
+.garlic{
+  margin-left:135px ;
+}
+.ginger{
+  margin-left:165px ;
+}
+.cardamom{
+  margin-left:120px ;
+}
+.cinnamon{
+  margin-left: 120px;
+}
+.coriander{
+  margin-left:120px ;
+}
+.blackpepper{
+  margin-left: 45px;
+}
+.cumin{
+  margin-left: 125px;
+}
+.fenugreek{
+  margin-left: 130px;
+}
+.cloves{
+  margin-left: 135px;
+}
+.fennel{
+  margin-left: 150px;
+}
+.turmeric{
+  margin-left: 135px;
+}
+.onion{
+  margin-left: 80px;
+}
+.carrot{
+  margin-left: 140px;
+}
+.cucumber{
+  margin-left: 150px;
+}
